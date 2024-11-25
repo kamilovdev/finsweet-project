@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.posts-container {
+    max-width: 1440px;
+    padding: 96px 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .trending-post {
+        width: 624px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        p {
+
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 3px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+
+        h2 {
+
+            font-family: Poppins;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 58px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+
+        .post-description {
+            color: #232536;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+    }
+
+    .read-more-button {
+
+        button {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background-color: transparent;
+            border: none;
+            color: #444CFC;
+
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+    }
+
+    .post-image {
+        margin-top: 50px;
+    }
+
+    .post-meta {
+        display: flex;
+        gap: 16px;
+
+        .author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            p {
+                color: #232536;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+
+            }
+        }
+
+        .post-date {
+            display: flex;
+            align-items: center;
+
+            p {
+                color: #232536;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+
+            }
+        }
+
+        .separator {
+            display: flex;
+            align-items: center;
+            color: #232536;
+        }
+
+    }
+
+    .blog-post {
+        width: 515px;
+        height: 738px;
+        background: #FFDFC6;
+        padding: 72px 77px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+
+        .post-meta {
+            display: flex;
+            gap: 16px;
+        }
+
+        h4 {
+            color: #232536;
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 36px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+
+        p {
+            color: #232536;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+    }
+}
+
+.recent-post-section {
+    .recent-post-container {
+        max-width: 1440px;
+        padding: 96px 100px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    .recent-post-item {
+        display: flex;
+    }
+
+    .recent-post-details {
+        width: 310px;
+        background: #F9F9FF;
+        padding: 32px 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+
+        h4 {
+
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 36px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+
+    }
+
+    .recent-post-author-info {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        p {
+            color: #232536;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+    }
+
+    .recent-post-flex {
+        display: flex;
+        gap: 32px;
+    }
+
+    .recent-page-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .recent-post-header {
+        h1 {
+            color: #232536;
+            font-family: Poppins;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 58px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+    }
+}
+
+.all-posts-section{
+    background: #F9F9F9;
+
+    .all-posts-container{
+        max-width: 1440px;
+        padding: 96px 100px;
+        margin: 0 auto;
+    }
+
+    .post-content{
+        width: 405px;
+        background: #fff;
+    }
+    .post-details{
+        padding: 32px 32px;
+        
+        .post-text-wrapper{
+            width: 341px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        h4{
+color: #232536;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+        }
+        p{
+        
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+        }
+    }
+    .post-author-info{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        p{
+            color: #232536;
+   
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+        }
+    }
+    .post-item{
+        display: flex;
+        gap: 32px;
+    }
+    .all-posts-list{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+}

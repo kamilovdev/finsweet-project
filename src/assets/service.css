@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header-services {
+    background: #FFE6D2;
+    height: 574px;
+    top: 80px;
+    left: -1px;
+    gap: 0px;
+    opacity: 0px;
+
+    .header-container {
+        max-width: 1440px;
+        padding: 96px 100px;
+        margin: 0 auto;
+
+        .header-content {
+            display: flex;
+            gap: 253px;
+        }
+
+        .header-text {
+            width: 622px;
+            height: 174px;
+            top: 208px;
+            left: 160px;
+            gap: 0px;
+            opacity: 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+
+            p {
+
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: 3px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+
+            }
+
+            h1 {
+
+                font-family: Poppins;
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 58px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+            }
+
+            button {
+                width: fit-content;
+            }
+        }
+
+        .header-services-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            p {
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 36px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.tech-support-section {
+    .tech-support-container {
+        max-width: 1440px;
+        padding: 0px 100px;
+        padding-bottom: 96px;
+        margin: 0 auto;
+    }
+
+    .tech-support-content {
+        display: flex;
+        gap: 140px;
+
+        .tech-support-info {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            justify-content: center;
+
+            p {
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 36px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+
+            }
+
+            h1 {
+
+                font-family: Poppins;
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 54px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+
+            }
+
+            .support-description {
+                color: #232536;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+
+            }
+        }
+    }
+}
+
+.development-section {
+    background: #ECF8F9;
+
+    .development-container {
+        max-width: 1440px;
+        padding: 0px 100px;
+        padding-bottom: 96px;
+        margin: 0 auto;
+    }
+
+    .development-content {
+        display: flex;
+        gap: 140px;
+    }
+
+    .development-info {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+
+        p {
+
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 36px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+
+        h3 {
+
+            font-family: Poppins;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 54px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+
+        .development-description {
+            color: #232536;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+    }
+}
+
+.cloud-services-section {
+    .cloud-services-container {
+        max-width: 1440px;
+        padding: 0px 100px;
+        padding-bottom: 96px;
+        margin: 0 auto;
+    }
+
+    .cloud-services-content {
+        display: flex;
+        gap: 140px;
+
+        .cloud-services-info {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            justify-content: center;
+
+            p {
+
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 36px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+
+            }
+
+            h3 {
+
+                font-family: Poppins;
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 54px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+
+            }
+
+            .cloud-description {
+
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+
+            }
+        }
+    }
+
+}
+
+.consulting-section {
+    background: #F9F9FF;
+
+    .consulting-container {
+        max-width: 1440px;
+        padding: 0px 100px;
+        padding-bottom: 96px;
+        margin: 0 auto;
+    }
+
+    .consulting-content {
+        display: flex;
+        gap: 140px;
+    }
+
+    .consulting-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 36px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+
+        h3 {
+
+            font-family: Poppins;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 54px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+
+        .consulting-description {
+            color: #232536;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+    }
+
+}
+
+.it-services-section {
+    .it-services-container {
+        max-width: 1440px;
+        padding: 0px 100px;
+        padding-bottom: 96px;
+        margin: 0 auto;
+    }
+
+    .it-services-content {
+        display: flex;
+        gap: 140px;
+    }
+
+    .it-info {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+
+        p {
+
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 36px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+
+        h3 {
+
+            font-family: Poppins;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 54px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+
+        .it-description {
+            color: #232536;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+    }
+}

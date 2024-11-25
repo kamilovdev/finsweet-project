@@ -1,0 +1,191 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .container {
+     max-width: 1440px;
+     padding: 0 100px;
+     margin: 0 auto;
+ }
+
+ ul,
+ li {
+     list-style: none;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ body {
+     font-family: "Poppins", sans-serif;
+ }
+
+ .career-container {
+     max-width: 1440px;
+     padding: 96px 100px;
+     margin: 0 auto;
+    
+
+     .career-header-content {
+         display: flex;
+         flex-direction: column;
+         gap: 64px;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .career-text {
+         width: 624px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 24px;
+
+         p {
+
+             font-family: Poppins;
+             font-size: 14px;
+             font-weight: 500;
+             line-height: 20px;
+             letter-spacing: 3px;
+             text-align: left;
+             text-underline-position: from-font;
+             text-decoration-skip-ink: none;
+
+         }
+
+         h2 {
+
+             font-family: Poppins;
+             font-size: 48px;
+             font-weight: 600;
+             line-height: 58px;
+             text-align: center;
+             text-underline-position: from-font;
+             text-decoration-skip-ink: none;
+
+         }
+
+         .career-description {
+             color: #232536;
+             font-family: Poppins;
+             font-size: 16px;
+             font-weight: 400;
+             line-height: 24px;
+             text-align: center;
+             text-underline-position: from-font;
+             text-decoration-skip-ink: none;
+
+         }
+     }
+
+     .career-cta {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 16px;
+
+         p {
+             color: #232536;
+             font-family: Poppins;
+             font-size: 18px;
+             font-weight: 500;
+             line-height: 28px;
+             text-align: left;
+             text-underline-position: from-font;
+             text-decoration-skip-ink: none;
+
+         }
+     }
+ }
+ 
+ .job-listing{
+    padding: 0px 100px;
+    padding-bottom: 96px;
+    margin: 0 auto;
+    max-width: 1440px;
+    
+    
+    
+    
+ }
+ .job-container {
+     
+     padding: 78px 78px;
+     background: #ECF8F9;
+     display: flex;
+     flex-direction: column;
+     gap: 32px;
+  
+      .job-flex{
+        display: flex;
+        gap: 32px;
+      }
+
+     .job-card {
+         width: 354px;
+         height: 243px;
+         background: #fff;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         padding: 46px;
+         gap: 52px;
+    
+    
+         .job-header{
+            display: flex;
+            flex-direction: column;
+            gap:10px;
+         }
+         p {
+
+             font-family: Poppins;
+             font-size: 16px;
+             font-weight: 600;
+             line-height: 28px;
+             text-align: left;
+             text-underline-position: from-font;
+             text-decoration-skip-ink: none;
+
+         }
+
+         .job-location-salary {
+             p {
+
+                 color: #232536;
+                 font-family: Poppins;
+                 font-size: 16px;
+                 font-weight: 400;
+                 line-height: 24px;
+                 text-align: left;
+                 text-underline-position: from-font;
+                 text-decoration-skip-ink: none;
+
+             }
+         }
+
+         .job-cta {
+             button {
+                 background: transparent;
+                 border: none;
+                 color: #5D5FEF;
+                 font-family: Poppins;
+                 font-size: 16px;
+                 font-weight: 500;
+                 line-height: 24px;
+                 text-align: left;
+                 text-underline-position: from-font;
+                 text-decoration-skip-ink: none;
+
+             }
+         }
+     }
+ }
+
+ 

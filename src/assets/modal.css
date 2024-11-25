@@ -1,0 +1,90 @@
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    gap: 68px;
+ 
+  
+     .modal-header {
+         display: flex;
+         flex-direction: column;
+         gap: 24px;
+         width: 685px;
+         h2 {
+ 
+             font-family: Poppins;
+             font-size: 48px;
+             font-weight: 600;
+             line-height: 58px;
+             text-align: left;
+             text-underline-position: from-font;
+             text-decoration-skip-ink: none;
+ 
+         }
+ 
+         p {
+             color: #232536;
+             font-family: Poppins;
+             font-size: 16px;
+             font-weight: 400;
+             line-height: 24px;
+             text-align: left;
+             text-underline-position: from-font;
+             text-decoration-skip-ink: none;
+ 
+         }
+     }
+     form {
+         label {
+             color: #232536;
+             font-family: Poppins;
+             font-size: 14px;
+             font-weight: 500;
+             line-height: 20px;
+             text-align: left;
+             text-underline-position: from-font;
+             text-decoration-skip-ink: none;
+ 
+         }
+ 
+         input {
+             width: 405px;
+             border: 1px 0px 0px 0px;
+             opacity: 0.2px;
+             padding: 5px;
+             
+             border-left: white;
+             border-top: white;
+             border-right: white;
+             border-color: #232536;
+         }
+ 
+         button {
+             padding: 20px 32px;
+             background-color: #444cfc;
+             border: none;
+             color: #fff;
+             font-size: 16px;
+             cursor: pointer;
+             transition: all 0.5s ease;
+       
+             &:hover {
+               background-color: #444dfcc6;
+             }
+       
+             .shapes {
+               position: relative;
+       
+               img {
+                 position: absolute;
+                 top: -20px;
+                 left: -32px;
+               }
+             }
+       
+             .arrow {
+               margin-left: 16px;
+             }
+           }
+ 
+     }
+ }
