@@ -169,9 +169,9 @@
 
           <div class="customer-reviews">
             <span class="customer-images">
-              <img src="../../public/section/image 3 (1).png" alt="">
-              <img src="../../public/section/image 3 (1).png" alt="">
-              <img src="../../public/section/image 3 (1).png" alt="">
+              <img src="../../public/section/author.png" alt="">
+              <img src="../../public/section/author.png" alt="">
+              <img src="../../public/section/author.png" alt="">
             </span>
             <p>30+ Customer Reviews</p>
           </div>
@@ -191,7 +191,7 @@
             <div class="testimonial-author-container">
               <div class="testimonial-author">
                 <span class="author-image">
-                  <img src="../../public/section/image 3 (1).png" alt="">
+                  <img src="../../public/section/author.png" alt="">
                 </span>
                 <span class="author-info">
                   <h1>Johnny Andro</h1>
