@@ -3,7 +3,8 @@
   import process from '@/components/process.vue';
   import blog from '@/components/blog.vue';
   import newsletter from '@/components/newsletter.vue';
-  import contact from '@/components/footer.vue';
+  import Button from '@/components/buttons/button-b.vue'
+  import Buttonw from '@/components/buttons/button-w.vue';
 </script>
 <template>
   <div class="wrapper">
@@ -18,13 +19,7 @@
               The entire Finsweet team knows what's good with Webflow and<br />
               you can too with 1 week and a good attitude.
             </p>
-            <button>
-              <span class="shapes">
-                <img src="../../public/header/svg/shapes.svg" alt="shapes" />
-              </span>
-              Request Quote
-              <img src="../../public/navbar/arrow.svg" alt="arrow" class="arrow" />
-            </button>
+           <Button title="Request Quote"/>
           </div>
           <div class="header__right">
             <img src="../../public/header/header-image.png" alt="header-image" />
@@ -104,7 +99,7 @@
           </div>
 
           <div class="read-more-button">
-            <button>Read about us <img src="../../public/section/arrow2.png" alt=""></button>
+            <Buttonw title="Read about us"/>
           </div>
         </div>
       </div>
@@ -116,13 +111,7 @@
         <div class="services-header">
           <p>Our Services</p>
           <h1>We build software solutions that solve client's business challenges</h1>
-          <button class="start-project-btn">
-            <span class="shapes">
-              <img src="../../public/header/svg/shapes.svg" alt="shapes" />
-            </span>
-            Start a Project
-            <img src="../../public/navbar/arrow.svg" alt="arrow" class="arrow" />
-          </button>
+         <Button title="Start a Project"/>
         </div>
 
         <div class="services-list">
@@ -134,7 +123,7 @@
               <h1>Technical support</h1>
               <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it
                 comes to world-class service</p>
-              <button class="read-more-btn">Read more <img src="../../public/section/arrow2.png" alt=""></button>
+              <Buttonw title="Read more "/>
             </div>
           </div>
 
@@ -146,7 +135,7 @@
               <h1>Testing Management</h1>
               <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it
                 comes to world-class service</p>
-              <button class="read-more-btn">Read more <img src="../../public/section/arrow2.png" alt=""></button>
+                <Buttonw title="Read more "/>
             </div>
           </div>
 
@@ -158,7 +147,7 @@
               <h1>Development</h1>
               <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it
                 comes to world-class service</p>
-              <button class="read-more-btn">Read more <img src="../../public/section/arrow2.png" alt=""></button>
+                <Buttonw title="Read more "/>
             </div>
           </div>
         </div>
@@ -221,7 +210,6 @@
 
     <blog />
     <newsletter />
-    <contact />
     
 
   </div>
@@ -261,33 +249,7 @@
       margin-bottom: 32px;
     }
 
-    button {
-      padding: 20px 32px;
-      background-color: #444cfc;
-      border: none;
-      color: #fff;
-      font-size: 16px;
-      cursor: pointer;
-      transition: all 0.5s ease;
-
-      &:hover {
-        background-color: #444dfcc6;
-      }
-
-      .shapes {
-        position: relative;
-
-        img {
-          position: absolute;
-          top: -20px;
-          left: -32px;
-        }
-      }
-
-      .arrow {
-        margin-left: 16px;
-      }
-    }
+   
   }
 
   .header-clients {

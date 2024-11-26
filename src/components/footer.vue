@@ -54,32 +54,94 @@
       <p class="contact-bottom-address">DLF Cybercity, Bhubaneswar, <br> India, &52050</p>
     </span>
 
-      <button class="contact-button">
-        Contact Us <img src="../../public/section/arrow2.png" alt="arrow">
-      </button>
+      <ButtonW @click="openModal" class="btn-w" title="Contact Us"/>
     </div>
 
   </div>
-    <div class="footer-bottom">
+  <div class="footer-bottom">
       <div class="footer-branding">
         <span class="logo">
           <img src="../../public/section/Logo (1).svg" alt="Finsweet logo">
         </span>
         <p>©2021 Finsweet</p>
       </div>
-
+      
       <div class="social-icons">
+        <img src="../../public/section/Facebook.png" alt="social icon">
+        <img src="../../public/section/Twitter.png" alt="social icon">
         <img src="../../public/section/Group.png" alt="social icon">
-        <img src="../../public/section/Group.png" alt="social icon">
-        <img src="../../public/section/Group.png" alt="social icon">
-        <img src="../../public/section/Group.png" alt="social icon">
+        <img src="../../public/section/linkedin.png" alt="social icon">
       </div>
     </div>
+
+    
+    <Modal :isOpen="isOpenModal" @close="closeModal">
+      <div class="modal-container">
+        <div class="modal-header">
+          <h2>Have a Question ? Let’s Get in Touch with us 👋</h2>
+          <p>Fill up the form and the team will get back to within 24 hrs</p>
+        </div>
+        <form class="modal-form">
+          <label for="Name">Name</label><br />
+          <input type="Name" placeholder="Paresh Srichandan" v-model="user.name"><br /><br />
+  
+          <label for="Email" class="form-label">E-mail</label><br />
+          <input type="email" placeholder="Paresh@pixeto.com" v-model="user.email" /><br /><br />
+  
+          <label for="Subject" class="form-label">Subject</label><br />
+          <input type="text" placeholder="For web design work Enquire " v-model="user.subject"/><br /><br />
+  
+          <label for="Message" class="form-label">Message</label><br />
+          <input type="text" placeholder="Paresh Srichandan" /><br /><br />
+  
+          <span class="modal-btn">
+            <button>
+              <span class="shapes">
+                <img src="../../public/header/svg/shapes.svg" alt="shapes" />
+              </span>
+              Send Messege
+              <span>
+                <img src="../../public/navbar/arrow.svg" alt="arrow" class="arrow" />
+  
+              </span>
+            </button>
+          </span>
+        </form>
+      </div>
+    </Modal>
+
 </footer>
 </template>
+<script setup>
+   import { ref, reactive } from "vue";
+   import ButtonW from './buttons/button-w.vue';
+  import Modal from "../components/modal.vue";
 
-<style scoped>
+  const user = reactive({
+    name: "Paresh Srichandan",
+    email: "Paresh@pixeto.com",
+    subject: "For web design work Enquire ",
+})
+  const isOpenModal = ref(false);
+
+  const openModal = () => {
+    isOpenModal.value = true;
+  };
+
+  const closeModal = () => {
+    isOpenModal.value = false;
+  };
+
+</script>
+
+<style scoped lang="scss">
  a{
   color: #000;
+ }
+ .btn-w{
+  color: #000;
+ }
+ .btn-w:hover{
+  color: #252525d5;
  }
 </style>

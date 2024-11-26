@@ -1,5 +1,5 @@
 <script setup>
- import Footer from '@/components/footer.vue';
+import Button from '@/components/buttons/button-b.vue';
 import { reactive } from 'vue';
 
 const user = reactive({
@@ -44,16 +44,7 @@ const user = reactive({
 
 
                             <span class="contact-btn">
-                                <button>
-                                    <span class="shapes">
-                                        <img src="../../public/header/svg/shapes.svg" alt="shapes" />
-                                    </span>
-                                    Request Quote
-                                    <span>
-                                    <img src="../../public/navbar/arrow.svg" alt="arrow" class="arrow" />
-                                    
-                                    </span>
-                                </button>
+                             <Button title="Request Quote"/>
                             </span>
                         </form>
                     </div>
@@ -102,34 +93,4 @@ const user = reactive({
     </div>
 </template>
 
-<style scoped>
-
-    button {
-     
-        padding: 20px 32px;
-        background-color: #444cfc;
-        border: none;
-        color: #fff;
-        font-size: 16px;
-        cursor: pointer;
-        transition: all 0.5s ease;
-
-        &:hover {
-            background-color: #444dfcc6;
-        }
-
-        .shapes {
-            position: relative;
-
-            img {
-                position: absolute;
-                top: -20px;
-                left: -32px;
-            }
-        }
-
-        .arrow {
-            margin-left: 16px;
-        }
-    }
-</style>
+<style scoped></style>

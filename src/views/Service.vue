@@ -1,7 +1,7 @@
 <script setup>
   import Process from '@/components/process.vue';
   import Newsletter from '@/components/newsletter.vue';
-  import Footer from '@/components/footer.vue';
+  import Button from '@/components/buttons/button-b.vue';
 </script>
 <template>
   <div class="wrapper">
@@ -17,13 +17,7 @@
               enquire we up ecstatic.
             </p>
 
-            <button>
-              <span class="shapes">
-                <img src="../../public/header/svg/shapes.svg" alt="shapes" />
-              </span>
-              Request Quote
-              <img src="../../public/navbar/arrow.svg" alt="arrow" class="arrow" />
-            </button>
+            <Button title="Request Quote"/>
           </div>
 
           <div class="header-services-list">
@@ -135,31 +129,5 @@
 </template>
 
 <style scoped>
-  button {
-    padding: 20px 32px;
-    background-color: #444cfc;
-    border: none;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.5s ease;
-
-    &:hover {
-      background-color: #444dfcc6;
-    }
-
-    .shapes {
-      position: relative;
-
-      img {
-        position: absolute;
-        top: -20px;
-        left: -32px;
-      }
-    }
-
-    .arrow {
-      margin-left: 16px;
-    }
-  }
+ 
 </style>

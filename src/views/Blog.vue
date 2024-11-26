@@ -1,6 +1,6 @@
 <script setup>
     import Newsletter from '@/components/newsletter.vue';
-    import Footer from '@/components/footer.vue';
+    import ButtonW from '@/components/buttons/button-w.vue';
 </script>
 <template>
     <div class="wrapper">
@@ -18,7 +18,7 @@
                     </p>
 
                     <div class="read-more-button">
-                        <button>Read more <img src="../../public/section/arrow2.png" alt="arrow icon"></button>
+                       <ButtonW title="Read more"/>
                     </div>
 
                     <div class="post-meta">

@@ -1,7 +1,7 @@
 <script setup>
 import Newsletter from '@/components/newsletter.vue';
-import Footer from '@/components/footer.vue';
 import Process from '@/components/process.vue';
+import ButtonW from '@/components/buttons/button-w.vue';
 </script>
 <template>
     <div class="wrapper">
@@ -39,35 +39,34 @@ import Process from '@/components/process.vue';
                           </span>
                       </div>
                       <div class="job-cta">
-                          <button >Apply Now <img src="../../public/section/arrow2.png"
-                                  alt="arrow icon"></button>
+                         <ButtonW title="Apply Now"/>
                       </div>
                   </div>
   
                   <div class="job-card">
                       <div class="job-header">
-                          <p>Full Stack Developer</p>
+                          <p>Testing Engineer</p>
                           <span class="job-location-salary">
                               <p>Bengaluru · Full Time</p>
                               <p> $10K - $18K · No equity</p>
                           </span>
                       </div>
                       <div class="job-cta">
-                          <button >Apply Now <img src="../../public/section/arrow2.png"
-                                  alt="arrow icon"></button>
+                        <ButtonW title="Apply Now"/>
+
                       </div>
                   </div>
                   <div class="job-card">
                       <div class="job-header">
-                          <p>Full Stack Developer</p>
+                          <p>Hr Manager</p>
                           <span class="job-location-salary">
                               <p>Bengaluru · Full Time</p>
                               <p> $10K - $18K · No equity</p>
                           </span>
                       </div>
                       <div class="job-cta">
-                          <button >Apply Now <img src="../../public/section/arrow2.png"
-                                  alt="arrow icon"></button>
+                        <ButtonW title="Apply Now"/>
+
                       </div>
                   </div>
               </div>  
@@ -75,42 +74,42 @@ import Process from '@/components/process.vue';
               <div class="job-flex">
                   <div class="job-card">
                       <div class="job-header">
-                          <p>Full Stack Developer</p>
+                          <p>Product Designer</p>
                           <span class="job-location-salary">
                               <p>Bengaluru · Full Time</p>
                               <p> $10K - $18K · No equity</p>
                           </span>
                       </div>
                       <div class="job-cta">
-                          <button >Apply Now <img src="../../public/section/arrow2.png"
-                                  alt="arrow icon"></button>
+                        <ButtonW title="Apply Now"/>
+
                       </div>
                   </div>
   
                   <div class="job-card">
                       <div class="job-header">
-                          <p>Full Stack Developer</p>
+                          <p>Wordpress Developer</p>
                           <span class="job-location-salary">
                               <p>Bengaluru · Full Time</p>
                               <p> $10K - $18K · No equity</p>
                           </span>
                       </div>
                       <div class="job-cta">
-                          <button >Apply Now <img src="../../public/section/arrow2.png"
-                                  alt="arrow icon"></button>
+                        <ButtonW title="Apply Now"/>
+
                       </div>
                   </div>
                   <div class="job-card">
                       <div class="job-header">
-                          <p>Full Stack Developer</p>
+                          <p>Jr. QA Tester</p>
                           <span class="job-location-salary">
                               <p>Bengaluru · Full Time</p>
                               <p> $10K - $18K · No equity</p>
                           </span>
                       </div>
                       <div class="job-cta">
-                          <button >Apply Now <img src="../../public/section/arrow2.png"
-                                  alt="arrow icon"></button>
+                        <ButtonW title="Apply Now"/>
+
                       </div>
                   </div>
               </div>  
@@ -118,42 +117,41 @@ import Process from '@/components/process.vue';
               <div class="job-flex">
                   <div class="job-card">
                       <div class="job-header">
-                          <p>Full Stack Developer</p>
+                          <p>Sr. UX Designer</p>
                           <span class="job-location-salary">
                               <p>Bengaluru · Full Time</p>
                               <p> $10K - $18K · No equity</p>
                           </span>
                       </div>
                       <div class="job-cta">
-                          <button >Apply Now <img src="../../public/section/arrow2.png"
-                                  alt="arrow icon"></button>
+                        <ButtonW title="Apply Now"/>
+
                       </div>
                   </div>
   
                   <div class="job-card">
                       <div class="job-header">
-                          <p>Full Stack Developer</p>
+                          <p>Social Media Manager</p>
                           <span class="job-location-salary">
                               <p>Bengaluru · Full Time</p>
                               <p> $10K - $18K · No equity</p>
                           </span>
                       </div>
                       <div class="job-cta">
-                          <button >Apply Now <img src="../../public/section/arrow2.png"
-                                  alt="arrow icon"></button>
+                        <ButtonW title="Apply Now"/>
+
                       </div>
                   </div>
                   <div class="job-card">
                       <div class="job-header">
-                          <p>Full Stack Developer</p>
+                          <p>Golang Developer</p>
                           <span class="job-location-salary">
                               <p>Bengaluru · Full Time</p>
                               <p> $10K - $18K · No equity</p>
                           </span>
                       </div>
                       <div class="job-cta">
-                          <button >Apply Now <img src="../../public/section/arrow2.png"
-                                  alt="arrow icon"></button>
+                        <ButtonW title="Apply Now"/>
                       </div>
                   </div>
               </div>  
