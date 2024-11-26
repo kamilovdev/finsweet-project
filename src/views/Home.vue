@@ -117,7 +117,7 @@
         <div class="services-list">
           <div class="service-item">
             <span class="service-icon">
-              <img src="../../public/section/icon-div-1.svg" alt="">
+              <img src="../../public/section/icon-div1.svg" alt="">
             </span>
             <div class="service-description">
               <h1>Technical support</h1>
@@ -141,7 +141,7 @@
 
           <div class="service-item">
             <span class="service-icon">
-              <img src="../../public/section/icon-div-2.svg" alt="">
+              <img src="../../public/section/icon-div2.svg" alt="">
             </span>
             <div class="service-description">
               <h1>Development</h1>
