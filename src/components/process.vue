@@ -19,7 +19,7 @@
                     <div class="step-content">
                        
                         <span class="step-icon">
-                            <img src="../../public/section/icon-div-4.png" alt="">
+                            <img src="../../public/section/watch.png" alt="">
                         </span>
                         <div class="step-description">
                             <h1>Discover</h1>
@@ -35,7 +35,7 @@
                     <div class="step-content">
                        
                         <span class="step-icon">
-                            <img src="../../public/section/icon-div-4.png" alt="">
+                            <img src="../../public/section/watch.png" alt="">
                         </span>
                         <div class="step-description">
                             <h1>Designing</h1>
@@ -51,7 +51,7 @@
                     <div class="step-content">
                        
                         <span class="step-icon">
-                            <img src="../../public/section/icon-div-4.png" alt="">
+                            <img src="../../public/section/watch.png" alt="">
                         </span>
                         <div class="step-description">
                             <h1>Development</h1>
@@ -66,7 +66,7 @@
                     <div class="step-content">
                        
                         <span class="step-icon">
-                            <img src="../../public/section/icon-div-4.png" alt="">
+                            <img src="../../public/section/watch.png" alt="">
                         </span>
                         <div class="step-description">
                             <h1>Testing</h1>
@@ -82,7 +82,7 @@
                     <div class="step-content">
                        
                         <span class="step-icon">
-                            <img src="../../public/section/icon-div-4.png" alt="">
+                            <img src="../../public/section/watch.png" alt="">
                         </span>
                         <div class="step-description">
                             <h1>Deployment</h1>
@@ -98,7 +98,7 @@
                     <div class="step-content">
                        
                         <span class="step-icon">
-                            <img src="../../public/section/icon-div-4.png" alt="">
+                            <img src="../../public/section/watch.png" alt="">
                         </span>
                         <div class="step-description">
                             <h1>Maintenance</h1>
