@@ -200,8 +200,16 @@ body {
 
     .our-story-clients {
         display: flex;
+        justify-content: center;
+        align-items: center;
         background: #FAFAFC;
-
+        gap: 32px;
+        
+        img:hover{
+            transform: scale(1.1);
+            transition: 0.5s;
+            cursor: pointer;
+        }
     }
 }
 

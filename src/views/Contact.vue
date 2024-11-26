@@ -1,5 +1,7 @@
 <script setup>
 import Button from '@/components/buttons/button-b.vue';
+
+
 import { reactive } from 'vue';
 
 const user = reactive({
@@ -91,6 +93,13 @@ const user = reactive({
 
 
     </div>
+
+
+
+    
+
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>

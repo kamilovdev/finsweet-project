@@ -19,12 +19,12 @@
           <RouterLink to="/"> <img src="../../public/navbar/Logo.svg" alt="log" /></RouterLink>
         </div>
         <ul class="menu">
-            <RouterLink to="/">Home</RouterLink>
-            <RouterLink to="Service">Service</RouterLink>
-            <RouterLink to="Company">Company</RouterLink>
-            <RouterLink to="Career">Career</RouterLink>
-            <RouterLink to="Blog">Blog</RouterLink>
-            <RouterLink to="Contact">Contact us</RouterLink>
+          <RouterLink to="/" class="nav-link" exact-active-class="active">Home</RouterLink>
+          <RouterLink to="/service" class="nav-link" active-class="active">Service</RouterLink>
+          <RouterLink to="/company" class="nav-link" active-class="active">Company</RouterLink>
+          <RouterLink to="/career" class="nav-link" active-class="active">Career</RouterLink>
+          <RouterLink to="/blog" class="nav-link" active-class="active">Blog</RouterLink>
+          <RouterLink to="/contact" class="nav-link" active-class="active">Contact us</RouterLink>
 
           <button class="nav-btn">
             Clone project
@@ -79,4 +79,6 @@
     }
   }
 }
+
+
 </style>

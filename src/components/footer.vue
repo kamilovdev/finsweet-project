@@ -53,8 +53,10 @@
     <span>
       <p class="contact-bottom-address">DLF Cybercity, Bhubaneswar, <br> India, &52050</p>
     </span>
-
+       <span class="flex-btn">
+        <img src="../../public/footer/palasaikki.svg" alt="">
       <ButtonW @click="openModal" class="btn-w" title="Contact Us"/>
+       </span>
     </div>
 
   </div>
@@ -95,16 +97,7 @@
           <input type="text" placeholder="Paresh Srichandan" /><br /><br />
   
           <span class="modal-btn">
-            <button>
-              <span class="shapes">
-                <img src="../../public/header/svg/shapes.svg" alt="shapes" />
-              </span>
-              Send Messege
-              <span>
-                <img src="../../public/navbar/arrow.svg" alt="arrow" class="arrow" />
-  
-              </span>
-            </button>
+           <ButtonB title="Send Message"/>
           </span>
         </form>
       </div>
@@ -113,9 +106,10 @@
 </footer>
 </template>
 <script setup>
-   import { ref, reactive } from "vue";
-   import ButtonW from './buttons/button-w.vue';
+  import { ref, reactive } from "vue";
+  import ButtonW from './buttons/button-w.vue';
   import Modal from "../components/modal.vue";
+import ButtonB from "./buttons/button-b.vue";
 
   const user = reactive({
     name: "Paresh Srichandan",

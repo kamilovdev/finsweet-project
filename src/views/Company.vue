@@ -92,7 +92,12 @@
 
                     <!-- Clients' logos -->
                     <div class="our-story-clients">
-                        <img src="../../public/company/Logo Bar.png" alt="">
+                        <img src="../../public/company/logoipsum.svg" alt="">
+                        <img src="../../public/company/logoipsum.svg" alt="">
+                        <img src="../../public/company/logoipsum.svg" alt="">
+                        <img src="../../public/company/logoipsum.svg" alt="">
+                        <img src="../../public/company/logoipsum.svg" alt="">
+
                     </div>
                 </div>
             </div>
