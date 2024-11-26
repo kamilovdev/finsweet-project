@@ -78,22 +78,22 @@
           <div class="stats-container">
             <div class="stat-item">
               <h1>1560+</h1>
-              <img src="../../public/section/shapes.png" alt="">
+              <img src="../../public/section/shapes.svg" alt="">
               <p>Project Delivered</p>
             </div>
             <div class="stat-item">
               <h1>100+</h1>
-              <img src="../../public/section/shapes.png" alt="">
+              <img src="../../public/section/shapes.svg" alt="">
               <p>Professional</p>
             </div>
             <div class="stat-item">
               <h1>950+</h1>
-              <img src="../../public/section/shapes.png" alt="">
+              <img src="../../public/section/shapes.svg" alt="">
               <p>Happy Client</p>
             </div>
             <div class="stat-item">
               <h1>10 yrs</h1>
-              <img src="../../public/section/shapes.png" alt="">
+              <img src="../../public/section/shapes.svg" alt="">
               <p>Experience</p>
             </div>
           </div>
