@@ -10,7 +10,7 @@
     <div class="expertise-features">
       <div class="feature-item">
         <span class="feature-icon">
-          <img src="../../public/section/Group-1749.png" alt="">
+          <img src="../../public/section/Group-1749.svg" alt="">
         </span>
         <span class="feature-description">
           <h1>On Time Delivery</h1>
@@ -20,7 +20,7 @@
 
       <div class="feature-item">
         <span class="feature-icon">
-          <img src="../../public/section/Group-1755.png" alt="">
+          <img src="../../public/section/Group-1755.svg" alt="">
         </span>
         <span class="feature-description">
           <h1>Best Quality</h1>
@@ -30,7 +30,7 @@
 
       <div class="feature-item">
         <span class="feature-icon">
-          <img src="../../public/section/Group-1855.png" alt="">
+          <img src="../../public/section/Group-1855.svg" alt="">
         </span>
         <span class="feature-description">
           <h1>Support Assist</h1>
