@@ -55,7 +55,7 @@
                                 <span class="our-story-stat">
                                     <h1 class="our-story-stat-number">1560+</h1>
                                     <span class="our-story-stat-icon">
-                                        <img src="../../public/section/Shapes.svg" alt="Icon" />
+                                        <img src="../../public/section/palasa.svg" alt="Icon" />
                                     </span>
                                     <p>Projects Delivered</p>
                                 </span>
@@ -63,7 +63,7 @@
                                 <span class="our-story-stat">
                                     <h1>100+</h1>
                                     <span class="our-story-stat-icon">
-                                        <img src="../../public/section/Shapes.svg" alt="Icon"
+                                        <img src="../../public/section/palasa.svg" alt="Icon"
                                             class="our-story-stat-icon-img" />
                                     </span>
                                     <p>Professionals</p>
@@ -74,7 +74,7 @@
                                 <span class="our-story-stat">
                                     <h1>950+</h1>
                                     <span class="our-story-stat-icon">
-                                        <img src="../../public/section/Shapes.svg" alt="Icon" />
+                                        <img src="../../public/section/palasa.svg" alt="Icon" />
                                     </span>
                                     <p>Projects Delivered</p>
                                 </span>
@@ -82,7 +82,7 @@
                                 <span class="our-story-stat">
                                     <h1>10 yrs</h1>
                                     <span class="our-story-stat-icon">
-                                        <img src="../../public/section/Shapes.svg" alt="Icon" />
+                                        <img src="../../public/section/palasa.svg" alt="Icon" />
                                     </span>
                                     <p>Experience</p>
                                 </span>
