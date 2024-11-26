@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <span class="process-line">
-                        <img src="../../public/section/line 1.png" alt="">
+                        <img src="../../public/section/linee.png" alt="">
                     </span>
                 </div>
     
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     <span class="process-line">
-                        <img src="../../public/section/line 1.png" alt="">
+                        <img src="../../public/section/linee.png" alt="">
                     </span>
                 </div>
     
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                     <span class="process-line">
-                        <img src="../../public/section/line 1.png" alt="">
+                        <img src="../../public/section/linee.png" alt="">
                     </span>
                 </div>
     
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <span class="process-line">
-                        <img src="../../public/section/line 1.png" alt="">
+                        <img src="../../public/section/linee.png" alt="">
                     </span>
                 </div>
     
