@@ -16,7 +16,7 @@
             <div class="blog-text">
               <p class="blog-date">Jan 19, 2021</p>
               <h1 class="blog-heading">Today’s best design trends for digital products</h1>
-              <button class="read-more-btn">Read More <img src="../../public/section/arrow2.png" alt="arrow"></button>
+              <ButtonW title="Read More"/>
             </div>
           </div>
 
@@ -27,10 +27,13 @@
             <div class="blog-text">
               <p class="blog-date">Jan 19, 2021</p>
               <h1 class="blog-heading">Today’s best design trends for digital products</h1>
-              <button class="read-more-btn">Read More <img src="../../public/section/arrow2.png" alt="arrow"></button>
+              <ButtonW title="Read More"/>
             </div>
           </div>
         </div>
       </div>
     </section>
 </template>
+<script setup>
+ import ButtonW from './buttons/button-w.vue';
+</script>

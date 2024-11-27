@@ -154,7 +154,12 @@ body {
         display: flex;
         flex-direction: column;
         gap: 48px;
-
+       
+        .blog-post-great-design{
+            display: flex;
+            flex-direction: column;
+            gap: 21px;
+        }
         .post-meta {
             display: flex;
             gap: 16px;

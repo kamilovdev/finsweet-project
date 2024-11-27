@@ -39,7 +39,7 @@
 
                 <!-- Second Post -->
                 <article class="blog-post">
-                    <div>
+                    <div class="blog-post-great-design">
                         <h4>Great design expectations: Prejudice in digital products next year</h4>
 
                         <div class="post-meta">
@@ -53,29 +53,29 @@
                         </div>
                     </div>
 
-                    <div>
+                    <div class="blog-post-great-design">
                         <h4>Great design expectations: Prejudice in digital products next year</h4>
 
                         <div class="post-meta">
                             <span class="author">
-                                <img src="../../public/blog/andrew.png" alt="Andrew Jonson">
+                                <img src="../../public/blog/Mathew.png" alt="Mathew Josele">
                             </span>
                             <span class="author-info">
-                                <p>Andrew Jonson</p>
+                                <p>Mathew Josele</p>
                                 <p>Jan 19, 2021</p>
                             </span>
                         </div>
                     </div>
 
-                    <div>
+                    <div class="blog-post-great-design">
                         <h4>Great design expectations: Prejudice in digital products next year</h4>
 
                         <div class="post-meta">
                             <span class="author">
-                                <img src="../../public/blog/andrew.png" alt="Andrew Jonson">
+                                <img src="../../public/blog/Hussen.png" alt="Hussen Abakas">
                             </span>
                             <span class="author-info">
-                                <p>Andrew Jonson</p>
+                                <p>Hussen Abakas</p>
                                 <p>Jan 19, 2021</p>
                             </span>
                         </div>
